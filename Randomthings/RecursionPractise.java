@@ -10,9 +10,9 @@ public class RecursionPractise {
 
     private static void sayHi(int count){
         System.out.println("Hi");
-        if (count <=1)
-            return; 
-        sayHi(count - 1);
+        if (count <=1) //Exit condition, if the count is less than or equal to 1, then 
+            return; //Base case returns avoiding the infinite loop
+        sayHi(count - 1); //Uses recursion and -1 from the count every single time 
 
     }
 }
