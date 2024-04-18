@@ -5,7 +5,7 @@ public class FibonacciFast {
     */
     private static long[] fibonacciCache;
     public static void main(String[] args) {
-        int n = 50;
+        int n = 10;
 
         fibonacciCache = new long[n + 1];
 
